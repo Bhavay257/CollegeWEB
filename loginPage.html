@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+  
+</head>
+<body>
+
+    <header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <a href="index.html" class="logo"><i class="fas fa-user-graduate"></i></a>
+
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="index.html">home</a></li>
+            <li><a href="courses.html">course</a></li>
+            <li><div class="dropdown">
+                <button class="dropbtn">Top Categories</button>
+                <div class="dropdown-content">
+                  <a href="https://www.udemy.com/courses/design/">Design</a>
+                  <a href="https://www.udemy.com/courses/development/">Development</a>
+                  <a href="https://www.udemy.com/courses/marketing/">Marketing</a>
+                  <a href="https://www.udemy.com/courses/it-and-software/">IT and Software</a>
+                  <a href="https://www.udemy.com/courses/personal-development/">Personal Development</a>
+                  <a href="https://www.udemy.com/courses/business/">Business</a>
+                  <a href="https://www.udemy.com/courses/photography-and-video/">Photography</a>
+                  <a href="https://www.udemy.com/courses/music/">Music</a>
+                </div>
+              </div></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="about.html">about</a></li>
+        </ul>
+    </nav>
+
+    <label id="dark-change"></label>
+
+    <div id="login" class="fas fa-user-circle"></div>
+
+</header>
+  
+    <!-- about section starts  -->
+
+<section class="course" id="course">
+
+         <div class="headings"><h1 class="heading">your courses</h1></div>   
+        
+        <div class="box-container">
+        
+            <div class="box">
+                <img src="images/frontend.jpg" alt="">
+                <h3 id="new">new!!</h3>
+                <div class="content">
+                    <h2 style="font-size: 20px">learn front end development</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, beatae. Modi quos excepturi id quibusdam? Molestiae quis nihil non debitis!</p> -->
+
+                    <div class="progress" id="course-bar">
+                                <div id="c-bar"  
+                                     style="width:0%">
+                                </div>
+        </div>
+                    <button  id="bt2" >Start Now</button>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 2 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 6 months </h3>
+                        <h3> <i class="fas fa-book"></i> 12 modules </h3>
+                    </div>
+                </div>
+            </div>
+
+
+        
+        <!-- box2 -->
+
+         <div class="box">
+                <img src="images/oops.jpg" alt="">
+                <!-- <h3 class="price">$50</h3> -->
+                <div class="content">
+                    <!-- <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div> -->
+                    <h2 style="font-size: 25px">Object Oriented Programming</h2>
+                   
+                    <div class="progress" id="course-bar">
+                                <div id="c-bar"  
+                                     style="width:60%">
+                                </div>
+        </div>
+                    <button  id="bt2" >Continue</button>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 2 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 3 months </h3>
+                        <h3> <i class="fas fa-book"></i> 9 modules </h3>
+                    </div>
+                </div>
+            </div>
+
+<!-- box 3 -->
+
+        <div class="box">
+                <img src="images/ios.jpg" alt="">
+                <!-- <h3 class="price">$50</h3> -->
+                <div class="content">
+                    <!-- <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div> -->
+                    <h2 style="font-size: 25px">IOS Development</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, beatae. Modi quos excepturi id quibusdam? Molestiae quis nihil non debitis!</p> -->
+
+                    <div class="progress" id="course-bar">
+                                <div id="c-bar"  
+                                     style="width:60%">
+                                </div>
+        </div>
+                    <button  id="bt2" >Continue</button>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 2 hours </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 8 months </h3>
+                        <h3> <i class="fas fa-book"></i> 15 modules </h3>
+                    </div>
+                </div>
+            </div>
+<!-- box4 -->
+
+
+        
+        </section>
+
+        <div class="footer">
+
+            <div class="box-container">
+        
+                <div class="box">
+                    <h3>Brainery</h3>
+                    <p> <h1 class="brainery-footer">Brainery is an online platform that helps you to create courses for categories like business, design, marketing, etc.</h1></p>
+        
+                    <p> <h1 class="brainery-footer">You can develop new skills and achieving their goals by learning from the extensive library of various courses. Subjects that are available in Brainery are taught by expert instructions.</h1></p>
+                </div>
+        
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#">home</a>
+                    <a href="#">about</a>
+                    <a href="#">course</a>
+                    <a href="#">teachers</a>
+                    <a href="#">contact</a>
+                </div>
+        
+                <div class="box">
+                    <h3>contact info</h3>
+                    <p> <i class="fas fa-map-marker-alt"></i> Chandigarh, India, 160032</p>
+                    <p> <i class="fas fa-envelope"></i> contactus@brainery.edu.in </p>
+                    <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+                </div>
+            </div>
+            <h1 class="credit">created by <a href="#">Team-Nine.</a> all rights reserved. </h1>
+        
+                </div>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+             <script src="script.js"></script>
+
+<!-- about section ends -->
+
+    
+</body>
+</html>

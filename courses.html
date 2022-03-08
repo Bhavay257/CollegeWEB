@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+   
+    <link rel="stylesheet" href="style.css">
+
+    
+
+</head>
+<body>
+ 
+    <header>
+
+        <div id="menu" class="fas fa-bars"></div>
+    
+        <a href="#" class="logo"><i class="fas fa-laptop-code"></i></a>
+    
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="index.html">home</a></li>
+                <li><a href="courses.html">course</a></li>
+                <li><div class="dropdown">
+                    <button class="dropbtn">Top Categories</button>
+                    <div class="dropdown-content">
+                      <a href="https://www.udemy.com/courses/design/">Design</a>
+                      <a href="https://www.udemy.com/courses/development/">Development</a>
+                      <a href="https://www.udemy.com/courses/marketing/">Marketing</a>
+                      <a href="https://www.udemy.com/courses/it-and-software/">IT and Software</a>
+                      <a href="https://www.udemy.com/courses/personal-development/">Personal Development</a>
+                      <a href="https://www.udemy.com/courses/business/">Business</a>
+                      <a href="https://www.udemy.com/courses/photography-and-video/">Photography</a>
+                      <a href="https://www.udemy.com/courses/music/">Music</a>
+                    </div>
+                  </div></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="about.html">about</a></li>
+            </ul>
+        </nav>
+
+        <label id="dark-change"></label>
+    
+        <div id="login" class="fas fa-user-circle"></div>
+      
+<!-- login form  -->
+
+<div class="loginForm login-form " >
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email"  id="e-mail" placeholder="e-mail" class="box" >
+        <p id="validEmail" style="color: black"></p>
+        <input type="password" id="password" placeholder="password"class="box" >
+        <p  id="validPass"style="color: black"></p>
+        <br>
+      
+        <br>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a id="register" style="cursor: pointer;">register now</a></p>
+    
+     <a href="loginPage.html"><button type="button" id="Loginbt"class="btn" value="login">Login</button> </a>
+        <i class="fas fa-times cross1"></i>
+    </form>
+</div>
+
+
+<!-- registration form -->
+
+
+
+
+
+
+
+
+<div class="login-form registration-form" >
+
+    <form action="">
+        <h3>Register</h3>
+        <input type="email"  id="e-mail2" placeholder="E-mail" class="box" >
+        <p id="validEmail2"  ></p>
+        <input type="number" maxlength="10"  placeholder="contact-number" id="number" class="box" >
+        <p id="num"></p>
+
+        <input type="password" id="password1" placeholder="password" class="box" >
+        <p id="strongPass" ></p>
+        
+      <input type="password" id="password2" placeholder=" Re-enter password" class="box" >
+      <p id="passMatch"></p>
+        <br>
+        <p>forget password? <a href="#">click here</a></p>
+    <br>
+     <button type="button" id="registerbt" class="btn" value="register">Register</button>
+        <i class="fas fa-times cross2"></i>
+    </form>
+</div>
+
+
+
+
+    </header>
+
+    <section class="course" id="course">
+
+        <div class="headings"><h1 class="heading">our popular courses</h1></div>  
+        
+        <div class="box-container">
+        
+            <div class="box">
+                <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/java_logo_icon_168609.png" alt="">
+                <h3 class="price">$249</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="https://www.codingninjas.com/courses/online-java-course" class="title">JAVA with Data Structures and Algorithms</a>
+                    <p>Compile your code in one of the easy to use programming languages, JAVA. The course will train you to become the next face of JAVA Developer.</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 4-5 Months </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 350+ Coding Problems </h3>
+                        <h3> <i class="fas fa-book"></i> 12 modules </h3>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="box">
+                <img src="https://www.logo.wine/a/logo/C%2B%2B/C%2B%2B-Logo.wine.svg" alt="">
+                <h3 class="price">$249</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="https://www.codingninjas.com/courses/onlline-c-plus-plus-course" class="title">C++ with Data Structures and Algorithms</a>
+                    <p>Learn one of the most powerful and portable programming languages C++ and become eligible to apply for the positions at Google, Microsoft, Facebook, Amazon etc.</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 4-6 Months </h3>
+                        <h3> <i class="far fa-calendar-alt"></i>350+ Coding Problems</h3>
+                        <h3> <i class="fas fa-book"></i> 10 modules </h3>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="box">
+                <img src="https://qphs.fs.quoracdn.net/main-qimg-a22176fa7d6c771f50a7cec68e713538" alt="">
+                <h3 class="price">$299</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="https://www.codingninjas.com/courses/online-competitive-programming-course" class="title">Competitive Programming</a>
+                    <p>Learn to write most efficient programmes and equip yourself to get solution for the complex codes. Get ready for the competitions like ACM-ICPC, Google Codejam and more.</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 4-6 Months </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 400+ Coding Problems </h3>
+                        <h3> <i class="fas fa-book"></i> 14 Modules </h3>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="box">
+                <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/python_original_wordmark_logo_icon_146382.png" alt="">
+                <h3 class="price">$249</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="https://www.codingninjas.com/courses/online-python-course" class="title">Python with Data Structures & Algorithms</a>
+                    <p>The course will train with the core programming concepts with Python. You will become eligible to apply for positions at Google, Microsoft, Facebook and more.</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 4-6 Months </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 350+ Coding Problems</h3>
+                        <h3> <i class="fas fa-book"></i> 12 modules </h3>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="box">
+                <img src="https://previews.123rf.com/images/doublerdesign/doublerdesign2006/doublerdesign200600009/149670570-travel-bag-or-luggage-or-suitcase-logo-design-vector-template.jpg" alt="">
+                <h3 class="price">$199</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="https://www.codingninjas.com/courses/online-interview-preparation" class="title">Interview Preparation</a>
+                    <p>To succeed in the tech interviews, you need to understand the expectations of the interviewer. This course will train you on solving problems.</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 4-6 Months </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 250+ Practice Problems </h3>
+                        <h3> <i class="fas fa-book"></i> 10 modules </h3>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="box">
+                <img src="https://digitalnovascotia.com/wp-content/uploads/2020/04/2019.06.24-Aptitude-Logo_Full-Colour.jpg" alt="">
+                <h3 class="price">$199</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="https://www.codingninjas.com/courses/online-aptitude-preparation" class="title">Aptitude Preparation</a>
+                    <p>Conquer the aptitude round of the interviews through this course. The series will enhance your Quantitative Aptitude, Logical Reasoning.</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 2-3 Months </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 250+ Practice Problems </h3>
+                        <h3> <i class="fas fa-book"></i> 14 modules </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/11/cybersecurity-logo.jpeg" alt="">
+                <h3 class="price">$99</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="https://www.udemy.com/course/the-complete-internet-security-privacy-course-volume-1/" class="title">Cyber Security Course</a>
+                    <p>Volume 1 : Become a Cyber Security Specialist, Learn How to Stop Hackers, Prevent Hacking, Learn IT Security, INFOSEC & CCENT/ICND-1 100-105.</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 1-2 Months </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> Hands-on-Experience </h3>
+                        <h3> <i class="fas fa-book"></i> 8 modules </h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="data:image/png;base64,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" alt="">
+                <h3 class="price">$99</h3>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="https://www.udemy.com/course/complete-networking-fundamentals-course-ccna-start/" class="title">Networking Fundamentals Course</a>
+                    <p>Learn about networking and start your journey to Cisco 200-301 Certification.This course is for anyone who wants to attain the Cisco CCNA certification</p>
+                    <div class="info">
+                        <h3> <i class="far fa-clock"></i> 1-2 Months </h3>
+                        <h3> <i class="far fa-calendar-alt"></i> 125+ resources </h3>
+                        <h3> <i class="fas fa-book"></i> 10 modules </h3>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+        
+        
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="script.js"></script>
+
+        <!-- course section ends -->
+    </section>
+    <div class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                
+                <p> <h1 class="brainery-footer">This is a  platform that helps you to get courses on categories like business, design, marketing, etc.</h1></p>
+
+                <p><h1 class="brainery-footer">You can develop new skills and achieving their goals by learning from the extensive library of various courses. Subjects that are available here are taught by expert instructions.</h1></p>
+            </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">course</a>
+                <a href="#">teachers</a>
+                <a href="#">contact</a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <p> <i class="fas fa-map-marker-alt"></i> Chandigarh, India, 160032</p>
+                <p> <i class="fas fa-envelope"></i> contactus@MORGAN.edu.in </p>
+                <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+            </div>
+        </div>
+        <h1 class="credit">created by <a href="#">BHAVAY.</a> all rights reserved. </h1>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>

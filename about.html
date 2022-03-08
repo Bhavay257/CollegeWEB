@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="shortcut icon" type="image/jpg" href="2-books-png-image.png"/>
+    <link rel="stylesheet" href="style.css">
+    
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+    <header>
+
+        <div id="menu" class="fas fa-bars"></div>
+    
+        <a href="index.html" class="logo"><i class="fas fa-user-graduate"></i></a>
+        <nav class="navbar">
+          <ul>
+              <li><a class="active" href="index.html">home</a></li>
+              <li><a href="courses.html">course</a></li>
+              <li><div class="dropdown">
+                  <button class="dropbtn">Top Categories</button>
+                  <div class="dropdown-content">
+                    <a href="https://www.udemy.com/courses/design/">Design</a>
+                    <a href="https://www.udemy.com/courses/development/">Development</a>
+                    <a href="https://www.udemy.com/courses/marketing/">Marketing</a>
+                    <a href="https://www.udemy.com/courses/it-and-software/">IT and Software</a>
+                    <a href="https://www.udemy.com/courses/personal-development/">Personal Development</a>
+                    <a href="https://www.udemy.com/courses/business/">Business</a>
+                    <a href="https://www.udemy.com/courses/photography-and-video/">Photography</a>
+                    <a href="https://www.udemy.com/courses/music/">Music</a>
+                  </div>
+                </div></li>
+              <li><a href="contact.html">contact</a></li>
+              <li><a href="about.html">about</a></li>
+          </ul>
+      </nav>
+    <label id="dark-change"></label>
+        <div id="login" class="fas fa-user-circle"></div>
+
+
+
+        <!-- login form  -->
+
+<div class="loginForm login-form " >
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email"  id="e-mail" placeholder="e-mail" class="box" >
+        <p id="validEmail" style="color: black"></p>
+        <input type="password" id="password" placeholder="password"class="box" >
+        <p  id="validPass"style="color: black"></p>
+        <br>
+      
+        <br>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a id="register" style="cursor: pointer;">register now</a></p>
+    
+     <a href="loginPage.html"><button type="button" id="Loginbt"class="btn" value="login">Login</button> </a>
+        <i class="fas fa-times cross1"></i>
+    </form>
+</div>
+
+
+<!-- registration form -->
+
+
+
+
+
+
+
+
+<div class="login-form registration-form" >
+
+    <form action="">
+        <h3>Register</h3>
+        <input type="email"  id="e-mail2" placeholder="E-mail" class="box" >
+        <p id="validEmail2"  ></p>
+        <input type="number" maxlength="10"  placeholder="contact-number" id="number" class="box" >
+        <p id="num"></p>
+
+        <input type="password" id="password1" placeholder="password" class="box" >
+        <p id="strongPass" ></p>
+        
+      <input type="password" id="password2" placeholder=" Re-enter password" class="box" >
+      <p id="passMatch"></p>
+        <br>
+        <p>forget password? <a href="#">click here</a></p>
+    <br>
+     <button type="button" id="registerbt" class="btn" value="register">Register</button>
+        <i class="fas fa-times cross2"></i>
+    </form>
+</div>
+
+
+
+    
+    </header>
+ 
+    
+    <!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="imagez">
+        <img src="Images/1000-Premium-Courses-for-free-worth.png" style="width: 60%;">
+
+      </div>
+    
+      <div class="imagez">
+        <img src="Images/download.jfif" style="width: 60%;">
+      </div>
+    
+      <div class="imagez">
+        <img src="Images/buy1gift1-2.png" style="width: 60%;">
+    
+      </div>
+
+      <div class="content">
+        <h3>why choose us?</h3>
+        <p>MORGAN UNIVERSITY is the leading global marketplace for teaching and learning, connecting millions of students to the skills they need to succeed. WE help organizations of all kinds prepare for the ever-evolving future of work.</p>
+        <p>By connecting students all over the world to the best instructors,  we are helping individuals reach their goals and pursue their dreams.</p>
+        <a href="index.html"><button class="btn">learn more</button></a>
+    </div>
+
+    
+  
+      
+  
+  </div>
+
+  
+
+</section>
+
+<div class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          
+          <p> <h1 class="brainery-footer">This is a  platform that helps you to get courses on categories like business, design, marketing, etc.</h1></p>
+
+          <p><h1 class="brainery-footer">You can develop new skills and achieving their goals by learning from the extensive library of various courses. Subjects that are available here are taught by expert instructions.</h1></p>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#">home</a>
+          <a href="#">about</a>
+          <a href="#">course</a>
+          <a href="#">teachers</a>
+          <a href="#">contact</a>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <p> <i class="fas fa-map-marker-alt"></i> Chandigarh, India, 160032</p>
+          <p> <i class="fas fa-envelope"></i> contactus@MORGAN.edu.in </p>
+          <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+      </div>
+  </div>
+  <h1 class="credit">created by <a href="#">BHAVAY.</a> all rights reserved. </h1>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+<!-- about section ends -->
+    <script src="script.js">
+      
+
+    </script>
+
+</body>
+</html>

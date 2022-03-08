@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainery.in</title>
+
+    <link rel="shortcut icon" type="image/jpg" href="2-books-png-image.png"/>
+
+    <!-- google fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+    
+
+    
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <a href="index.html" class="logo"><i class="fas fa-user-graduate"></i></a>
+
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="index.html">home</a></li>
+            <li><a href="courses.html">course</a></li>
+            <li><div class="dropdown">
+                <button class="dropbtn">Top Categories</button>
+                <div class="dropdown-content">
+                  <a href="https://www.udemy.com/courses/design/">Design</a>
+                  <a href="https://www.udemy.com/courses/development/">Development</a>
+                  <a href="https://www.udemy.com/courses/marketing/">Marketing</a>
+                  <a href="https://www.udemy.com/courses/it-and-software/">IT and Software</a>
+                  <a href="https://www.udemy.com/courses/personal-development/">Personal Development</a>
+                  <a href="https://www.udemy.com/courses/business/">Business</a>
+                  <a href="https://www.udemy.com/courses/photography-and-video/">Photography</a>
+                  <a href="https://www.udemy.com/courses/music/">Music</a>
+                </div>
+              </div></li>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="about.html">about</a></li>
+        </ul>
+    </nav>
+
+     <label id="dark-change" style="display: none"></label>
+
+    <div id="login" class="fas fa-user-circle"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form  -->
+
+<div class="loginForm login-form " >
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email"  id="e-mail" placeholder="e-mail" class="box" >
+        <p id="validEmail" ></p>
+        <input type="password" id="password" placeholder="password"class="box" >
+        <p  id="validPass"></p>
+        <br>
+      
+        <br>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a id="register" style="cursor: pointer;">register now</a></p>
+    
+     <a href="loginPage.html"><button type="button" id="Loginbt"class="btn" value="login">Login</button> </a>
+        <i class="fas fa-times cross1"></i>
+    </form>
+</div>
+
+
+<!-- registration form -->
+
+
+
+<div class="login-form registration-form" >
+
+    <form action="">
+        <h3>Register</h3>
+        <input type="email"  id="e-mail2" placeholder="E-mail" class="box" >
+        <p id="validEmail2"  ></p>
+        <input type="number" maxlength="10"  placeholder="contact-number" id="number" class="box" >
+        <p id="num"></p>
+
+        <input type="password" id="password1" placeholder="password" class="box" >
+        <p id="strongPass" ></p>
+        
+      <input type="password" id="password2" placeholder=" Re-enter password" class="box" >
+      <p id="passMatch"></p>
+        <br>
+          
+    <br>
+     <button type="button" id="registerbt" class="btn" value="register">Register</button>
+        <i class="fas fa-times cross2"></i>
+    </form>
+</div>
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h1>MORGAN UNIVERSITY</h1>
+    <p> Find the right courses for you. Any topic, skill level, or language. Expert Instructors With Lifetime Validity </p>
+    <a href="#"><button class="btn" id="mainbt">get started</button></a>
+
+    <div class="shape"></div>
+
+</section>
+
+<section class="type" id="course">
+
+    <h1 class="heading">Top Categories</h1>    
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <img src="images/ux-788002_1280.jpg" alt="">
+            <div class="content">
+                <a href="https://www.udemy.com/courses/design/" class="title">Design</a>
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="images/dev.jpg" alt="">
+            <div class="content">
+                <a href="https://www.udemy.com/courses/development/" class="title">development</a>
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="images/online-marketing-1246457_1280.jpg" alt="">
+            
+            <div class="content">
+               
+                <a href="https://www.udemy.com/courses/marketing/" class="title">marketing</a>
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="images/work-731198_1280.jpg" alt="">
+             <div class="content">
+                 <a href="https://www.udemy.com/topic/software-development/" class="title">software</a>
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="images/startup-594090_1280.jpg" alt="">
+            <div class="content">
+                <a href="https://www.udemy.com/courses/business/" class="title">business</a>
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="images/lens-3114729_1280.jpg" alt="">
+            <div class="content">
+                <a href="https://www.udemy.com/courses/photography-and-video/photography-fundamentals/?search-query=photography" class="title">photography</a>
+            </div>
+        </div>
+    
+    </div>
+
+  
+    
+    </section>
+
+    <div class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                
+                <p> <h1 class="brainery-footer">This is a  platform that helps you to get courses on categories like business, design, marketing, etc.</h1></p>
+
+                <p><h1 class="brainery-footer">You can develop new skills and achieving their goals by learning from the extensive library of various courses. Subjects that are available here are taught by expert instructions.</h1></p>
+            </div>
+    
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">course</a>
+                <a href="#">teachers</a>
+                <a href="#">contact</a>
+            </div>
+    
+            <div class="box">
+                <h3>contact info</h3>
+                <p> <i class="fas fa-map-marker-alt"></i> Chandigarh, India, 160032</p>
+                <p> <i class="fas fa-envelope"></i> contactus@MORGAN.edu.in </p>
+                <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
+            </div>
+        </div>
+        <h1 class="credit">created by <a href="#">BHAVAY.</a> all rights reserved. </h1>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
